@@ -10,9 +10,6 @@
   padding: 0;
 }
 
-.footer__link-item:last-child {
-  margin: 0;
-}
 
 @media (max-width: 590px) {
   .footer__link-item {
