@@ -1,0 +1,10 @@
+.places {
+  display: flexbox;
+  flex-direction: column;
+  justify-content: start;
+
+}
+
+.places__place:first-child {
+  margin-top: 92px;
+}

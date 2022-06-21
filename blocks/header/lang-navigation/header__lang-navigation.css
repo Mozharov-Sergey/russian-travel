@@ -1,0 +1,9 @@
+.header__lang-navigation {
+  display: flex;
+  flex-direction: row;
+  align-content: end;
+}
+
+.header__lang-link:last-child {
+  margin-right: 0;
+}

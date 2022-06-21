@@ -1,0 +1,15 @@
+.places__place-url-block {
+  grid-area: url;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-start;
+  margin-bottom: 48px;
+}
+
+@media (max-width:590px) {
+  .places__place-url-block {
+    margin-left: 16px;
+    margin-bottom: 32px;
+  }
+}

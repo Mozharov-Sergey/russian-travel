@@ -1,0 +1,27 @@
+.lead__subtitle {
+  width: 640px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #FFF;
+  margin: 32px 0 0 0;
+}
+
+/* Дополнительная промежуточная точка,
+что бы title не вылезал за края */
+@media (max-width: 680px) {
+  .lead__subtitle {
+    width: 288px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 590px) {
+  .lead__subtitle {
+    width: 288px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

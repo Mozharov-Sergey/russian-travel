@@ -1,0 +1,14 @@
+.intro__list {
+  list-style: none;
+  padding: 0;
+  margin: 33px 0 0 0;
+}
+
+/* В макете на 32px отступ от текста 34px, т.е отличается на один.
+Счел это дизайнерской помаркой. */
+
+/* @media (max width: 590px) {
+  .intro__list {   
+    margin-top: 34px
+  } 
+} */
