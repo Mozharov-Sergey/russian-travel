@@ -4,10 +4,11 @@
   flex-direction: column;
   justify-content: end;
   align-items: flex-start;
-  margin-bottom: 48px;
+  /* margin-bottom: 48px; Значение из Figma */
+  margin-bottom: 46px;
 }
 
-@media (max-width:590px) {
+@media (max-width: 640px) {
   .places__place-url-block {
     margin-left: 16px;
     margin-bottom: 32px;

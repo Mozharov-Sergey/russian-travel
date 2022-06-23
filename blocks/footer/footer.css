@@ -3,7 +3,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: calc(100% - 48px*2);
+  width: calc(100% - 48px * 2);
   margin: 92px 48px 0;
   padding-bottom: 24px;
 }
@@ -11,7 +11,7 @@
 @media (max-width: 768px) {
   .footer {
     margin: 88px 24px 0;
-    width: calc(100% - 24px*2);
+    width: calc(100% - 24px * 2);
   }
 }
 
@@ -19,7 +19,7 @@
   .footer {
     flex-direction: column;
     margin: 64px 0 0 0;
-    width: calc(100% - 24px*2);
+    width: calc(100% - 24px * 2);
     align-items: flex-start;
   }
 }

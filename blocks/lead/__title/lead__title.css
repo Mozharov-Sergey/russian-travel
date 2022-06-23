@@ -6,22 +6,18 @@
   line-height: 100px;
   margin: 0;
   padding: 0;
-  color: #FFF;
+  color: #fff;
 }
 
-
-/* Дополнительная промежуточная точка,
-что бы title не вылезал за края */
-@media (max-width:680px) {    
-  .lead__title {               
+@media (max-width: 680px) {
+  .lead__title {
     max-width: 400px;
     font-size: 60px;
     line-height: 60px;
   }
 }
 
-
-@media (max-width:590px) {
+@media (max-width: 590px) {
   .lead__title {
     max-width: 288px;
     font-size: 40px;

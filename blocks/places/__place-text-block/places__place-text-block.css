@@ -1,7 +1,13 @@
-.places__place-text-block{
+.places__place-text-block {
   grid-area: text;
 }
 
 .places__place-text:first-child {
   margin: 0;
+}
+
+@media (max-width: 640px) {
+  .places__place-text-block {
+    margin: 0 16px 0;
+  }
 }

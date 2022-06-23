@@ -3,32 +3,34 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 152px, max-content;
   grid-template-areas:
-  "title url"
-  "photo text";
-  margin: 80px 148px 0;
-  column-gap: 40px;
+    "title url"
+    "photo text";
+  margin: 80px 0 0;
+  /* column-gap: 40px;     Значение в макете */
+  column-gap: 19px;
 }
 
 @media (max-width: 1024px) {
   .places__place {
-    margin: 80px 48px 0;
+    margin: 80px 0 0;
   }
 }
 
 @media (max-width: 768px) {
   .places__place {
-    margin: 72px 24px 0;
+    /* margin: 72px 24px 0; Значение из Figma */
+    margin: 69px 0 0;
   }
 }
 
 @media (max-width: 640px) {
   .places__place {
     margin: 50px 0 0;
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(320px, 1fr);
     grid-template-areas:
-    "title"
-    "url"
-    "photo"
-    "text";
+      "title"
+      "url"
+      "photo"
+      "text";
   }
 }

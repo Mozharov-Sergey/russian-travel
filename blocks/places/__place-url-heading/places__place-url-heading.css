@@ -4,8 +4,8 @@
   font-size: 12px;
   line-height: 170%;
   letter-spacing: 2px;
-  color: #AAAAAA;
-  margin: 0 0 12px 0;
+  color: #aaaaaa;
+  /* margin: 0 0 12px 0; Значение из Figma */
+  margin: 0 0 7px 0;
   padding: 0;
 }
-

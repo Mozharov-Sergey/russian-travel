@@ -7,13 +7,13 @@
 }
 
 @media (max-width: 1024px) {
-  .lead {   
-    margin: 56px 48px 0;
+  .lead {
+    margin: 48px 48px 0;
   }
 }
 
 @media (max-width: 768px) {
-  .lead {   
-    margin: 56px 0 0;
+  .lead {
+    margin: 48px 0 0;
   }
 }
