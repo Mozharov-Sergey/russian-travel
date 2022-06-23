@@ -5,7 +5,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  aspect-ratio: 16 / 10;
+  -webkit-aspect-ratio: 16 / 10;
+  -moz-aspect-ratio: 16 / 10;
+  -o-aspect-ratio: 16 / 10;
   background-image: url(../../../images/cover/__background.jpg);
   background-size: cover;
   z-index: 1;
