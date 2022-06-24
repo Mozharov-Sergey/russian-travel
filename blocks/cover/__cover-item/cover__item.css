@@ -5,9 +5,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  -webkit-aspect-ratio: 16 / 10;
+  /* -webkit-aspect-ratio: 16 / 10;
   -moz-aspect-ratio: 16 / 10;
-  -o-aspect-ratio: 16 / 10;
+  -o-aspect-ratio: 16 / 10;  */
   background-image: url(../../../images/cover/__background.jpg);
   background-size: cover;
   z-index: 1;
@@ -30,20 +30,35 @@
   opacity: 0.8;
 }
 
+@media (max-width: 1280px) {
+  .cover__item {
+    min-height: 740px;
+  }
+}
+
 @media (max-width: 1024px) {
   .cover__item {
     margin: 90px 0 0;
+    min-height: 640px;
   }
 }
 
 @media (max-width: 768px) {
   .cover__item {
     margin: 90px 0 0;
+    min-height: 480px;
   }
 }
 
 @media (max-width: 560px) {
   .cover__item {
     margin: 66px 0 0;
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 430px) {
+  .cover__item {
+    min-height: 200px;
   }
 }
