@@ -7,6 +7,7 @@
   justify-content: center;
   background-image: url(../../../images/cover/__background.jpg);
   background-size: cover;
+  min-height: 740px;
   z-index: 1;
 }
 
@@ -27,11 +28,6 @@
   opacity: 0.8;
 }
 
-@media (max-width: 1280px) {
-  .cover__item {
-    min-height: 740px;
-  }
-}
 
 @media (max-width: 1024px) {
   .cover__item {
