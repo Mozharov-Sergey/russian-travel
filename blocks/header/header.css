@@ -1,23 +1,18 @@
 .header {
-  /* box-sizing: border-box; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
   max-width: calc(1280px - (48px * 2));
   min-width: calc(100% - (48px * 2));
-  height: 52px;
-  margin: 0 48px;
-  padding: 28px 0 0 0;
+  min-height: 52px;
+  padding: 28px 0 0;
 }
 
 @media (max-width: 768px) {
   .header {
     max-width: calc(1280px - (24px * 2));
     min-width: calc(100% - (24px * 2));
-    height: 52px;
-    margin: 0 24px;
-    padding: 28px 0 0 0;
   }
 }
 
@@ -25,9 +20,7 @@
   .header {
     max-width: calc(590px - (16px * 2));
     min-width: calc(100% - (16px * 2));
-    height: 52px;
-    margin: 0 16px;
-    /* padding: 16px 0 0 0; Знчение из figma */
-    padding-top: 6px;
+    padding: 16px 0 0;
+    min-height: 42px;
   }
 }

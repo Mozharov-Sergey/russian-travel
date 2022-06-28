@@ -4,10 +4,10 @@
   font-size: 72px;
   line-height: 76px;
   text-align: center;
-  margin: 0;
-  padding: 0;
-  max-width: 560px;
   color: #ffffff;
+  max-width: 560px;
+  margin: 0 auto 0;
+  padding: 0;
 }
 
 @media (max-width: 590px) {

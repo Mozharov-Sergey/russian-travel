@@ -4,9 +4,16 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  color: #FFF;
+  color: #fff;
   padding: 0;
   margin: 0 0 48px 0;
+  max-width: 460px;
+}
+
+@media (max-width: 1024px) {
+  .places__place-title {
+    max-width: 440px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -18,12 +25,10 @@
 }
 
 @media (max-width: 640px) {
-  .places__place-title {   
+  .places__place-title {
     font-size: 32px;
     line-height: 35px;
     margin: 0 0 32px 16px;
     max-width: 320px;
   }
 }
-
-

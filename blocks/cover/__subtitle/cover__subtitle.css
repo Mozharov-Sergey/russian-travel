@@ -6,7 +6,8 @@
   text-align: center;
   color: #ffffff;
   max-width: 360px;
-  margin: 32px 0 0 0;
+  margin: 32px auto 0;
+  padding: 0;
 }
 
 @media (max-width: 590px) {
@@ -14,5 +15,6 @@
     font-size: 14px;
     line-height: 16px;
     margin: 16px 0 0 0;
+    max-width: 288px;
   }
 }

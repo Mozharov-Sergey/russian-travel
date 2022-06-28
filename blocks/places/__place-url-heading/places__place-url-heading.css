@@ -1,11 +1,12 @@
 .places__place-url-heading {
+  display: block;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 170%;
   letter-spacing: 2px;
   color: #aaaaaa;
-  /* margin: 0 0 12px 0; Значение из Figma */
-  margin: 0 0 7px 0;
+  margin: 0 0 12px 0;
   padding: 0;
+  text-transform: uppercase;
 }

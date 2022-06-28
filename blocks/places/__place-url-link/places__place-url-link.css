@@ -5,6 +5,9 @@
   line-height: 22px;
   color: #fff;
   transition: 0.3s;
+  display: block;
+  margin: 0;
+  padding: 0;
 }
 
 .places__place-url-link:hover {
