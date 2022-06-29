@@ -1,7 +1,5 @@
 .places__place {
   display: grid;
-  grid-template-columns: 460px, 1fr;
-  grid-template-rows: 152px, max-content;
   grid-template-areas:
     "title url"
     "photo text";
